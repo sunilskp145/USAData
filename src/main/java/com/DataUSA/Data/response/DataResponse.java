@@ -9,4 +9,8 @@ public class DataResponse {
 
     @JsonProperty("data")
     private List<DataDetail> data;
+
+    @JsonProperty("source")
+    private List<SourceData> dataList;
+
 }
